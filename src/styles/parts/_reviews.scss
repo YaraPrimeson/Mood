@@ -1,0 +1,131 @@
+.reviews__title {
+  margin-top: 200px;
+  font-family: " Roboto";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: $maincolor;
+  text-align: center;
+}
+@media (max-width: 676px) {
+  .reviews__title {
+    font-size: 30px;
+    line-height: 32px;
+  }
+}
+@media (max-width: 425px) {
+  .reviews__title {
+    font-size: 22px;
+    line-height: 24px;
+    margin-top: 100px;
+  }
+}
+
+.reviews__container {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 1024px) {
+  .reviews__container {
+    align-items: center;
+    flex-direction: column;
+    justify-content: baseline;
+  }
+}
+
+.reviews__wrapper {
+  margin-top: 260px;
+  width: 455px;
+  background: $reviewesgradient;
+  border-radius: 34px;
+  position: relative;
+}
+@media (max-width: 1540px) {
+  .reviews__wrapper {
+    width: 25vw;
+  }
+}
+@media (max-width: 1024px) {
+  .reviews__wrapper {
+    width: 60vw;
+  }
+}
+@media (max-width: 425px) {
+  .reviews__wrapper {
+    width: 250px;
+    margin-top: 100px;
+    height: auto;
+  }
+}
+.reviews__text {
+  font-size: 28px;
+  line-height: 33px;
+  padding: 50px;
+}
+@media (max-width: 900px) {
+  .reviews__text {
+    font-size: 21px;
+    line-height: 25px;
+  }
+}
+@media (max-width: 425px) {
+  .reviews__text {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+.reviews__person::before {
+  content: "";
+  top: -140px;
+  left: 0px;
+  background: url("../img/reviews/fomich.png") center no-repeat;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  border-radius: 50%;
+}
+@media (max-width: 425px) {
+  .reviews__person::before {
+    width: 100px;
+    height: 100px;
+    top: -60px;
+    left: 10px;
+  }
+}
+
+.reviews__kuma::before {
+  content: "";
+  top: -140px;
+  left: 0px;
+  background: url("../img/reviews/kuma.png") center no-repeat;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  border-radius: 50%;
+}
+@media (max-width: 425px) {
+  .reviews__kuma::before {
+    width: 135px;
+    height: 135px;
+    top: -95px;
+    left: 10px;
+  }
+}
+.reviews__ecomarket::before {
+  content: "";
+  top: -150px;
+  left: 0px;
+  background: url("../img/reviews/ecomarket.png") center no-repeat;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  border-radius: 50%;
+}
+@media (max-width: 425px) {
+  .reviews__ecomarket::before {
+    width: 135px;
+    height: 135px;
+    top: -95px;
+    left: 10px;
+  }
+}

@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  // overflow: auto;
+  scroll-behavior: smooth;
+}
+body {
+  list-style: none;
+  background-color: #f4f0f0;
+  overflow-y: auto;
+  font-family: "Roboto", sans-serif, "Balsamiq Sans";
+}
+.hidden {
+  overflow: hidden;
+}
+li {
+  list-style: none;
+}
+
+.container {
+  padding: 0 50px;
+}
+@media (max-width: 1060px) {
+  .container {
+    padding: 0 25px;
+  }
+}
+@media (max-width: 425px) {
+  .container {
+    padding: 0 15px;
+  }
+}
+
+.btn {
+  border: none;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+}
+
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
